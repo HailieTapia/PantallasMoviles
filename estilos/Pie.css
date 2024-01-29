@@ -1,0 +1,50 @@
+footer {
+    background-color: #000000;    
+    color: #fff;
+    text-align: left;
+    padding: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:60%;
+}
+
+.footer-image {
+    float: right; /* Coloca la imagen a la derecha dentro del contenedor */
+}
+
+.footer-image img {
+    max-width: 30px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    border-radius:22%; /* Añade bordes redondeados a la imagen (puedes ajustar según tus necesidades) */
+    margin-left: 20px; /* Agrega un espacio a la izquierda de la imagen para separar del texto */
+}
+.mobile-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+button {
+    background-color: #c44a08;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.login-container {
+    background-color: #f4f4f4;
+    padding: 80px;
+    text-align: center;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.mobile-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+h6{
+    color: #7a7a7aa9;
+}

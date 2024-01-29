@@ -1,0 +1,40 @@
+
+main{
+    background-color: rgba(235, 232, 232, 0.984);
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    text-align: center;
+    width: calc(48% - 10px);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.product button {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #c44a08;
+    color: #fff;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 4px;
+}

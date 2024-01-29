@@ -1,0 +1,32 @@
+
+header {
+    background-color: #ffb33af6;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-image img {
+    max-height: 40px;
+}
+
+.header-title {
+    text-align: center;
+}
+
+.header-title h1 {
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+.header-title p {
+    font-size: 0.8em;
+    margin: 5px 0;
+}
